@@ -1,5 +1,1 @@
-# Secondo esercizio Boolean
-## Intro HTML
-... 
-HTML-LONDON-TRIP
-...
+# HTML-LONDON-TRIP
