@@ -1,113 +1,125 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Viaggio a Londra</title>
-</head>
-<body>
-  <header>
-    <h1>Il mio viaggio a Londra</h1>
-    <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="First photo">
-    <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Second photo">
-    <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Fird photo">
-  </header>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viaggio a Londra</title>
+  </head>
+  <body>
 
-  <hr>
-
-  <main>
-    <!-- Section My expenses -->
-    <section>
-      <h2>Le mie spese</h2>
-      <table>
-        <tr>
-          <th>Numero</th>
-          <th>Descrizione</th>
-          <th>Costo</th>
-        </tr>
-
-        <tr>
-          <td>1</td>
-          <td>Biglietto Aereo</td>
-          <td>120&euro;</td>
-        </tr>
-
-        <tr>
-          <td>1</td>
-          <td>Biglietto Aereo</td>
-          <td>120&euro;</td>
-        </tr>
-
-        <tr>
-          <td>1</td>
-          <td>Biglietto Aereo</td>
-          <td>120&euro;</td>
-        </tr>
-
-        <tr>
-          <td>Totale</td>
-          <td></td>
-          <td>360&euro;</td>
-        </tr>
-      </table>
-    </section>
+    <header id="site_header">
+      <h1>Il mio viaggio a Londra</h1>
+      <img src="./img/pexels-bill-emrich-230794-0.jpg" alt="First photo">
+      <img src="./img/pexels-bill-emrich-230794-1.jpg" alt="Second photo">
+      <img src="./img/pexels-bill-emrich-230794-2.jpg" alt="Fird photo">
+    </header>
+    <!-- /#site_header -->
 
     <hr>
 
-    <!-- Section Things to do -->
-    <section>
-      <h2>Cose da fare</h2>
-      <ul>
-        <li>Visitare la Tower of London &cross;</li>
-        <li>Visitare greenwich &check;</li>
-        <li>Ascoltare un artista di strada a Covent Garden &check;</li>
-        <li>Mangiare il tipicoFish and Chips inglese &cross;</li>
-      </ul>
-    </section>
+    <main id="site_main">
 
-    <hr>
+      <section id="expenses">
+        <h2>Le mie spese</h2>
+        <table>
+          <tr>
+            <th>Numero</th>
+            <th>Descrizione</th>
+            <th>Costo</th>
+          </tr>
 
-    <!-- Section Useful info -->
-    <section>
-      <h2>Info utili:</h2>
-      <ol>
-        <li>Numeri di emergenza
-          <ul>
-            <li><strong>999</strong>-Emergenza</li>
-            <li><strong>101</strong>-Numero polizia</li>
-            <li><strong>111</strong>-Numero assistenza medica</li>
+          <tr>
+            <td>1</td>
+            <td>Biglietto Aereo</td>
+            <td>120&euro;</td>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>Biglietto Aereo</td>
+            <td>120&euro;</td>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>Biglietto Aereo</td>
+            <td>120&euro;</td>
+          </tr>
+
+          <tr>
+            <td>Totale</td>
+            <td></td>
+            <td>360&euro;</td>
+          </tr>
+        </table>
+      </section>
+      <!-- /#expenses -->
+
+      <hr>
+
+      <section id="todo">
+        <h2>Cose da fare</h2>
+        <ul>
+          <li>Visitare la Tower of London &cross;</li>
+          <li>Visitare greenwich &check;</li>
+          <li>Ascoltare un artista di strada a Covent Garden &check;</li>
+          <li>Mangiare il tipicoFish and Chips inglese &cross;</li>
         </ul>
-      </li>
-        <li>Hotel
-          <ul>
-            <li><strong>Nome Hotel</strong> Buckingham Palace</li>
-            <li><strong>Indirizzo Hotel</strong> Westminster,London SWIAIAA,Regno Unito</li>
-          </ul>
-        </li>
-        <li>Aereo
-          <ul>
-            <li><strong>Volo di Andata</strong> Y1234X, ore 9.30 da Milano Malpensa</li>
-            <li><strong>Volo di Ritorno</strong> Y1236X, ore 18.30 da London Heathrow</li>
-          </ul>
-        </li>
-      </ol>
-    </section>
+      </section>
+      <!-- /#todo -->
+      <hr>
+
+      <section id="useful">
+        <h2>Info utili:</h2>
+        <ol>
+          <li>Numeri di emergenza
+            <ul>
+              <li><strong>999</strong>-Emergenza</li>
+              <li><strong>101</strong>-Numero polizia</li>
+              <li><strong>111</strong>-Numero assistenza medica</li>
+            </ul>
+          </li>
+          <li>Hotel
+            <ul>
+              <li><strong>Nome Hotel</strong> Buckingham Palace</li>
+              <li><strong>Indirizzo Hotel</strong> Westminster,London
+                SWIAIAA,Regno Unito</li>
+            </ul>
+          </li>
+          <li>Aereo
+            <ul>
+              <li><strong>Volo di Andata</strong> Y1234X, ore 9.30 da Milano
+                Malpensa</li>
+              <li><strong>Volo di Ritorno</strong> Y1236X, ore 18.30 da London
+                Heathrow</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+      <!-- /#useful -->
+      <hr>
+
+      <section id="photo">
+        <h2>Le foto</h2>
+        <img
+          src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg"
+          alt="London">
+        <img
+          src="https://i.ibb.co/r61By50/Cover-Image-Covent-Garden-Market-800x800.png"
+          alt="Other London">
+      </section>
+      <!-- /#photo -->
+
+    </main>
+    <!-- /#site_main -->
 
     <hr>
 
-    <!-- Section photo -->
-    <section>
-      <h2>Le foto</h2>
-      <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="London">
-      <img src="https://i.ibb.co/r61By50/Cover-Image-Covent-Garden-Market-800x800.png" alt="Other London">
-    </section>
-  </main>
+    <footer id="site_footer">
+      <p>Copyright &copy; <time>2023</time> - Daniele Morello Classe 91 Boolean</p>
+    </footer>
+    <!-- /#site_footer -->
 
-  <hr>
-
-  <footer>
-    <p>Copyright &copy; <time>2023</time> - Daniele Morello Classe 91 Boolean</p>
-  </footer>
-</body>
+  </body>
 </html>
